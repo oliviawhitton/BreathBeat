@@ -1,0 +1,21 @@
+# Guitar
+# Gentle chords under the piano melody
+
+# Chord 1 - 
+playNote([48, 52, 55], beats=6, velocity=30)
+
+# Chord 2 - 
+playNote([45, 48, 52], beats=6, velocity=30)
+
+# Chord 3 - 
+playNote([41, 45, 48], beats=6, velocity=30)
+
+# Chord 4 - 
+playNote([43, 47, 50], beats=6, velocity=30)
+
+# Repeat the chord progression
+for i in range(3):
+    playNote([48, 52, 55], beats=6, velocity=30)
+    playNote([45, 48, 52], beats=6, velocity=30)
+    playNote([41, 45, 48], beats=6, velocity=30)
+    playNote([43, 47, 50], beats=6, velocity=30)
