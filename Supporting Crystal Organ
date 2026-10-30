@@ -1,0 +1,17 @@
+# Organ
+# low chords to support the piano 
+
+# Introduction
+playNote(36, beats=4, velocity=35)
+
+# Repeat the breathing pattern 6 times
+for i in range(6):
+
+    # Low notes to match the guitar chords
+    playNote(36, beats=5, velocity=40) 
+    playNote(33, beats=5, velocity=40)  
+    playNote(29, beats=5, velocity=40)  
+    playNote(31, beats=5, velocity=40)  
+
+# Ending
+playNote(36, beats=4, velocity=35)
