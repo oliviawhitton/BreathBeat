@@ -1,0 +1,17 @@
+# Piano
+# Soft chords underneath the main melody
+
+# introduction
+playNote([48, 52, 55], beats=4, velocity=20)
+
+# Repeat 6 times to support the breathing pattern
+for i in range(6):
+
+    # Soft chords
+    playNote([48, 52, 55], beats=5, velocity=15)  
+    playNote([45, 48, 52], beats=5, velocity=15)  
+    playNote([41, 45, 48], beats=5, velocity=15)  
+    playNote([43, 47, 50], beats=5, velocity=15)  
+
+# ending
+playNote([48, 52, 55], beats=4, velocity=10)
