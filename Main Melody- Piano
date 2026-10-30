@@ -1,0 +1,33 @@
+# Piano - Main melody to follow for breathing
+# Rising notes = breathe in
+# Steady notes = hold in 
+# Falling notes = breathe out
+
+# Introduction
+playNote(64, beats=4, velocity=35)
+
+
+# Repeat the breathing pattern 6 times
+for i in range(6):
+
+    # Breathe in - 3 beats, rising pitch
+    playNote(60, beats=2, velocity=40)
+    playNote(64, beats=2, velocity=40)
+    playNote(67, beats=2, velocity=40)
+      
+    
+    # Hold in - 4 beats, steady
+    playNote(72, beats=2, velocity=40)
+    playNote(72, beats=2, velocity=40)
+    playNote(72, beats=2, velocity=40)
+    playNote(72, beats=2, velocity=40)
+
+    # Breathe out - 5 beats, falling pitch
+    playNote(67, beats=2, velocity=35)
+    playNote(64, beats=2, velocity=30)
+    playNote(60, beats=2, velocity=30)
+    playNote(55, beats=2, velocity=25)
+    
+
+# Ending 
+playNote(60, beats=4, velocity=15)
