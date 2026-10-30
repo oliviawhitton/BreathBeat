@@ -17,9 +17,11 @@ To navigate my code, the main melody is the main part to follow (also found in M
 
 This is the key feature of BreathBeat and the comments are used as instructions for TunePad to know what the reasonings are for the code and also for listeners, but they can also know through the rise and fall of the notes. 
 
+The main point of the code is that listeners will breath in when the pitch rises, hold when its steady and then breath out when the pitch falls. 
+
 The soft introduction and ending of the main melody act as 'warnings' in a way, sounding different and smaller durations to let you know that it is starting and ending. 
 
-In my json file you can also see the code of the other supporting instruments but that is just for added layers to the song, it doesn't have a purpose in terms of the actual breathwork techniques. 
+In my project files you can also see the code of the other supporting instruments but that is just for added layers to the song, it doesn't have a purpose in terms of the actual breathwork techniques. 
 
 # Project Files
 
