@@ -2,7 +2,7 @@
 
 # Details
 
-The details of my project is that it is called BreathBeat and is a song that is supposed to work as a breathwork tool to help with stress and anxiety. 
+My project is that it is called BreathBeat and is a song that is supposed to work as a breathwork tool to help with stress and anxiety. It was made using Python in TunePad. 
 
 I used Tunepad tutorials to aid in my understanding of how to navigate the platform. 
 TunepPad tutorial links 
